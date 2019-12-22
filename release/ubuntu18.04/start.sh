@@ -7,4 +7,4 @@ docker run -d -t -p 1080:80 \
     -v ~/docker-vol/zoneminder/logs:/var/log/zm \
     --shm-size="512m" \
     --name zoneminder \
-    zoneminderhq/zoneminder:latest-ubuntu18.04
+    zoneminder:latest
